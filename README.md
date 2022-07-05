@@ -1,5 +1,7 @@
 # App de consola para hacer tablas de multipicar
 
+<img src="assets\appPreview.png">
+
 ## Setup proyect
 
 ```

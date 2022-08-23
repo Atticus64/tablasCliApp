@@ -1,6 +1,6 @@
 # App de consola para hacer tablas de multipicar
 
-<img src="assets\appPreview.png">
+<img src="https://i.postimg.cc/PxKqcRmz/app-Preview.png" alt="preview node app" width="50%">
 
 ## Setup proyect
 

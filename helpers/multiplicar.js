@@ -7,9 +7,12 @@ const crearArchivo = async (num = 5, list, hasta = 10) => {
     try {
         let salida = '' 
         let consola = ''
+        const num1 =  `${num}`.cyan 
         for (let i = 1; i <= hasta; i++) {
-            salida += (`${num} ` + 'x' + ` ${i} ` + '=' + ` ${num * i}\n`);
-            consola += (`${num} `.cyan + 'x'.red + ` ${i} `.cyan + '='.yellow + ` ${num * i}\n`.bold.white);
+          const num2 = `${i}`.cyan
+          const res = `${num * i}\n`.bold.white
+          salida += `${num} x ${i} = ${num * i}\n`;
+          consola += (`${num1} ${'x'.red} ${num2} ${'='.yellow} ${res}`);
         }
         
         
